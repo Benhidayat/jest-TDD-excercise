@@ -1,5 +1,6 @@
 const capitalize = require('./capitalize');
 const reverseString = require('./reverseString');
+const calculator = require('./calculator');
 
 describe('capitalize string', () => {
     it('should return string with its first letter capitalized', () => {
@@ -22,5 +23,11 @@ describe('reverse string', () => {
 
     it('return empty string', () => {
         expect(reverseString('')).toBe('');
+    })
+})
+
+describe('simple calculator', () => {
+    it('add', () => {
+        expect(calculator.add(1, 2)).toBe(3);
     })
 })
