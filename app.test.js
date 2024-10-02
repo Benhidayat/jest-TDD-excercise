@@ -28,6 +28,18 @@ describe('reverse string', () => {
 
 describe('simple calculator', () => {
     it('add', () => {
-        expect(calculator.add(1, 2)).toBe(3);
+        expect(calculator.addNumber(1, 2)).toBe(3);
+    })
+
+    it('subtract', () => {
+        expect(calculator.subtractNumber(1, 2)).toBe(-1);
+    })
+
+    it('multiply', () => {
+        expect(calculator.multiplyNumber(1, 2)).toBe(2);
+    })
+
+    it('divide', () => {
+        expect(calculator.divideNumber(1, 2)).toBe(0.5);
     })
 })
