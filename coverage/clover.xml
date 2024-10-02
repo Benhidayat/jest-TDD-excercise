@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1727849375163" clover="3.2.0">
-  <project timestamp="1727849375163" name="All files">
-    <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="21" coveredelements="21" complexity="0" loc="15" ncloc="15" packages="1" files="3" classes="3"/>
+<coverage generated="1727861377885" clover="3.2.0">
+  <project timestamp="1727861377886" name="All files">
+    <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="33" coveredelements="33" complexity="0" loc="24" ncloc="24" packages="1" files="4" classes="4"/>
+    <file name="analyzeArray.js" path="/home/benh/repos2/exercises/jest-TDD-excercise/analyzeArray.js">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="2" count="12" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="6" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+    </file>
     <file name="calculator.js" path="/home/benh/repos2/exercises/jest-TDD-excercise/calculator.js">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>

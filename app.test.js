@@ -1,6 +1,7 @@
 const capitalize = require('./capitalize');
 const reverseString = require('./reverseString');
 const calculator = require('./calculator');
+const analyzeArray = require('./analyzeArray');
 
 describe('capitalize string', () => {
     it('should return string with its first letter capitalized', () => {
@@ -41,5 +42,11 @@ describe('simple calculator', () => {
 
     it('divide', () => {
         expect(calculator.divideNumber(1, 2)).toBe(0.5);
+    })
+})
+
+describe('analyze array', () => {
+    it('should return object contain average, min, max & length of the array', () => {
+        expect(analyzeArray([1,8,3,4,2,6])).toEqual({average: 4, min: 1, max: 8, length: 6});
     })
 })
